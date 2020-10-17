@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" xml:lang="fr-fr" class="no-touch" data-lt-installed="true" lang="fr-fr"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="applicable-device" content="pc,mobile">
+
+    
+<meta name="web-experience-app/config/environment" content="%7B%22appVersion%22%3A1%2C%22modulePrefix%22%3A%22web-experience-app%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22%2F%22%2C%22locationType%22%3A%22history-hash-router-scroll%22%2C%22historySupportMiddleware%22%3Atrue%2C%22contentSecurityPolicyMeta%22%3Atrue%2C%22contentSecurityPolicy%22%3A%7B%22default-src%22%3A%5B%22'none'%22%5D%2C%22img-src%22%3A%5B%22'self'%22%2C%22http%3A%2F%2F*.mzstatic.com%22%2C%22*.mzstatic.com%22%2C%22*.apple.com%22%2C%22*.googleusercontent.com%22%2C%22data%3A%22%5D%2C%22style-src%22%3A%5B%22'self'%22%2C%22'unsafe-inline'%22%2C%22*.apple.com%22%5D%2C%22font-src%22%3A%5B%22'self'%22%2C%22http%3A%2F%2F*.apple.com%22%2C%22https%3A%2F%2F*.apple.com%22%5D%2C%22media-src%22%3A%5B%22'self'%22%2C%22blob%3A%22%2C%22http%3A%2F%2F*%22%2C%22https%3A%2F%2F*%22%5D%2C%22connect-src%22%3A%5B%22'self'%22%2C%22*.apple.com%22%2C%22https%3A%2F%2F*.mzstatic.com%22%2C%22*.mzstatic.com%22%5D%2C%22script-src%22%3A%5B%22'self'%22%2C%22'unsafe-inline'%22%2C%22'unsafe-eval'%22%2C%22*.apple.com%22%5D%2C%22frame-src%22%3A%5B%22'self'%22%2C%22*.apple.com%22%2C%22itmss%3A%22%2C%22itms-appss%3A%22%2C%22itms-bookss%3A%22%2C%22itms-itunesus%3A%22%2C%22itms-messagess%3A%22%2C%22itms-podcasts%3A%22%2C%22itms-watchs%3A%22%2C%22macappstores%3A%22%2C%22musics%3A%22%2C%22apple-musics%3A%22%2C%22podcasts%3A%22%2C%22videos%3A%22%5D%7D%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%7D%2C%22_APPLICATION_TEMPLATE_WRAPPER%22%3Afalse%2C%22_DEFAULT_ASYNC_OBSERVERS%22%3Afalse%2C%22_JQUERY_INTEGRATION%22%3Atrue%2C%22_TEMPLATE_ONLY_GLIMMER_COMPONENTS%22%3Atrue%7D%2C%22APP%22%3A%7B%22PROGRESS_BAR_DELAY%22%3A3000%2C%22name%22%3A%22web-experience-app%22%2C%22version%22%3A%222040.3.0%2B64d9d13e%22%7D%2C%22MEDIA_API%22%3A%7B%22teamId%22%3A%228CU26MKLS4%22%2C%22keyId%22%3A%22CRF5HNBGPQ%22%2C%22privateKeyPath%22%3A%22ssl%2Fmedia_api_clientside_only.prod.key%22%2C%22ttl%22%3A3024000%2C%22token%22%3A%22eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkNSRjVITkJHUFEifQ.eyJpc3MiOiI4Q1UyNk1LTFM0IiwiaWF0IjoxNjAwODczNDk5LCJleHAiOjE2MDM4OTc0OTl9.W-S6C_gH0v5Te1I-KubieahD03fQHK8peHHVLfCl7YDAO1Yxa4aHULrCv2YDriPR9WErUXqqAc6_kyoFJ4wbUQ%22%7D%2C%22MEDIA_ARTWORK%22%3A%7B%22ENABLE_WEBP%22%3A%5B%22app.index%22%2C%22app-bundle.index%22%2C%22audiobook.index%22%2C%22book.index%22%2C%22podcast.index%22%2C%22podcast-episode.index%22%2C%22episode.index%22%2C%22movie.index%22%2C%22music-movie.index%22%2C%22music-video.index%22%2C%22show.index%22%2C%22tv-season.index%22%2C%22story.index%22%2C%22video.index%22%5D%7D%2C%22routerScroll%22%3A%7B%22targetElement%22%3A%22%23ember-app%22%7D%2C%22i18n%22%3A%7B%22defaultLocale%22%3A%22en-gb%22%2C%22useDevLoc%22%3Afalse%2C%22pathToLocales%22%3A%22dist%2Flocales%22%7D%2C%22moment%22%3A%7B%22includeLocales%22%3Atrue%2C%22includeTimezone%22%3A%22subset%22%7D%2C%22browserify%22%3A%7B%22transform%22%3A%5B%5B%22babelify%22%2C%7B%22presets%22%3A%5B%22env%22%5D%2C%22global%22%3Atrue%2C%22only%22%3A%7B%7D%7D%5D%5D%7D%2C%22API%22%3A%7B%22AppHost%22%3A%22https%3A%2F%2Famp-api.apps.apple.com%22%2C%22MZStore%22%3A%22https%3A%2F%2Fitunes.apple.com%22%2C%22PodcastHost%22%3A%22https%3A%2F%2Famp-api.podcasts.apple.com%22%2C%22StorePlatform%22%3A%22https%3A%2F%2Fuclient-api.itunes.apple.com%2FWebObjects%2FMZStorePlatform.woa%2Fwa%22%2C%22BookHost%22%3A%22https%3A%2F%2Famp-api.books.apple.com%22%2C%22globalElementsPath%22%3A%22%2Fglobal-elements%22%2C%22videoLocalizationPath%22%3A%22%2Fglobal%2Fac_media_player%2Fscripts%2Fac_media_languages%2F%22%2C%22appleAppsDomain%22%3A%22apps.apple.com%22%2C%22applePodcastsDomain%22%3A%22podcasts.apple.com%22%2C%22appleBooksDomain%22%3A%22books.apple.com%22%2C%22appleMusicDomain%22%3A%22music.apple.com%22%2C%22obcMetadataBaseUrl%22%3A%22%2Fapi%2Fbooks-metadata%22%7D%2C%22fastboot%22%3A%7B%22hostWhitelist%22%3A%5B%7B%7D%5D%7D%2C%22ember-a11y-testing%22%3A%7B%22componentOptions%22%3A%7B%22turnAuditOff%22%3Atrue%2C%22axeOptions%22%3A%7B%22rules%22%3A%7B%22color-contrast%22%3A%7B%22enabled%22%3Afalse%7D%7D%7D%7D%7D%2C%22ember-short-number%22%3A%7B%22locales%22%3A%5B%22ar-dz%22%2C%22ar-bh%22%2C%22ar-eg%22%2C%22ar-iq%22%2C%22ar-jo%22%2C%22ar-kw%22%2C%22ar-lb%22%2C%22ar-ly%22%2C%22ar-ma%22%2C%22ar-om%22%2C%22ar-qa%22%2C%22ar-sa%22%2C%22ar-sd%22%2C%22ar-sy%22%2C%22ar-tn%22%2C%22ar-ae%22%2C%22ar-ye%22%2C%22he-il%22%2C%22iw-il%22%2C%22ca-es%22%2C%22cs-cz%22%2C%22da-dk%22%2C%22de-ch%22%2C%22de-de%22%2C%22el-gr%22%2C%22en-au%22%2C%22en-ca%22%2C%22en-gb%22%2C%22en-us%22%2C%22es-419%22%2C%22es-es%22%2C%22es-mx%22%2C%22es-xl%22%2C%22et-ee%22%2C%22fi-fi%22%2C%22fr-ca%22%2C%22fr-fr%22%2C%22hi-in%22%2C%22hr-hr%22%2C%22hu-hu%22%2C%22id-id%22%2C%22is-is%22%2C%22it-it%22%2C%22iw-il%22%2C%22ja-jp%22%2C%22ko-kr%22%2C%22lt-lt%22%2C%22lv-lv%22%2C%22ms-my%22%2C%22nl-nl%22%2C%22no-no%22%2C%22no-nb%22%2C%22nb-no%22%2C%22pl-pl%22%2C%22pt-br%22%2C%22pt-pt%22%2C%22ro-ro%22%2C%22ru-ru%22%2C%22sk-sk%22%2C%22sv-se%22%2C%22th-th%22%2C%22tr-tr%22%2C%22uk-ua%22%2C%22vi-vi%22%2C%22vi-vn%22%2C%22zh-cn%22%2C%22zh-hans%22%2C%22zh-hant%22%2C%22zh-hk%22%2C%22zh-tw%22%2C%22ar%22%2C%22ca%22%2C%22cs%22%2C%22da%22%2C%22de%22%2C%22el%22%2C%22en%22%2C%22es%22%2C%22fi%22%2C%22fr%22%2C%22hi%22%2C%22hr%22%2C%22hu%22%2C%22id%22%2C%22is%22%2C%22it%22%2C%22ja%22%2C%22ko%22%2C%22lt%22%2C%22lv%22%2C%22ms%22%2C%22nb%22%2C%22nl%22%2C%22no%22%2C%22pl%22%2C%22pt%22%2C%22ro%22%2C%22ru%22%2C%22sk%22%2C%22sv%22%2C%22th%22%2C%22tr%22%2C%22uk%22%2C%22vi%22%2C%22zh%22%5D%7D%2C%22METRICS%22%3A%7B%22appName%22%3A%22web-experience-app%22%2C%22autoTrackingEnabled%22%3Atrue%2C%22constraintProfile%22%3A%22AMPWeb%22%2C%22delegate%22%3A%22web%22%2C%22isEnabled%22%3Atrue%2C%22topic%22%3A%22xp_amp_web_exp%22%2C%22url%22%3A%22https%3A%2F%2Fxp.apple.com%2Freport%22%7D%2C%22MEDIA_SHELF%22%3A%7B%22GRID_CONFIG%22%3A%7B%22books-brick-row%22%3A%7B%22small%22%3A1%2C%22medium%22%3A2%2C%22large%22%3A3%7D%7D%2C%22MEDIA_QUERIES%22%3A%7B%22small%22%3A%22(max-width%3A%20734px)%22%2C%22medium%22%3A%22(min-width%3A%20735px)%20and%20(max-width%3A%201068px)%22%2C%22large%22%3A%22(min-width%3A%201069px)%22%7D%7D%2C%22contentSecurityPolicyHeader%22%3A%22Content-Security-Policy-Report-Only%22%2C%22exportApplicationGlobal%22%3Afalse%7D">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' http://*.mzstatic.com *.mzstatic.com *.apple.com *.googleusercontent.com data:; style-src 'self' 'unsafe-inline' *.apple.com; font-src 'self' http://*.apple.com https://*.apple.com; media-src 'self' blob: http://* https://*; connect-src 'self' *.apple.com https://*.mzstatic.com *.mzstatic.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.apple.com; frame-src 'self' *.apple.com itmss: itms-appss: itms-bookss: itms-itunesus: itms-messagess: itms-podcasts: itms-watchs: macappstores: musics: apple-musics: podcasts: videos:; ">
+<!-- EMBER_CLI_FASTBOOT_TITLE --><link rel="stylesheet" name="fonts" href="ChibiEditor%20AppStore%20Demo_fichiers/fonts.css" as="style" onload="undefined">  
+<link rel="stylesheet" type="text/css" href="ChibiEditor%20AppStore%20Demo_fichiers/ac-global-nav.css" data-global-elements-nav-styles="">
+<link rel="stylesheet" type="text/css" href="ChibiEditor%20AppStore%20Demo_fichiers/ac-global-footer.css" data-global-elements-footer-styles="">
+
+    <meta name="version" content="2040.3.0">
+
+    <link integrity="" rel="stylesheet" href="ChibiEditor%20AppStore%20Demo_fichiers/web-experience-app-e1b84f5a073813407b998a4c77cdbabe.css" data-rtl="/assets/web-experience-rtl-app-5433a017dd517cc950fd5689bb30ca78.css">
+
+    
+  <script charset="utf-8" src="ChibiEditor%20AppStore%20Demo_fichiers/chunk.js"></script><style type="text/css">/*
+ * contextMenu.js v 1.4.0
+ * Author: Sudhanshu Yadav
+ * s-yadav.github.com
+ * Copyright (c) 2013 Sudhanshu Yadav.
+ * Dual licensed under the MIT and GPL licenses
+**/
+
+.iw-contextMenu {
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.10) !important;
+    border: 1px solid #c8c7cc !important;
+    border-radius: 11px !important;
+    display: none;
+    z-index: 1000000132;
+    max-width: 300px !important;
+    width: auto !important;
+}
+
+.dark-mode .iw-contextMenu,
+.TnITTtw-dark-mode.iw-contextMenu,
+.TnITTtw-dark-mode .iw-contextMenu {
+    border-color: #747473 !important;
+}
+
+.iw-cm-menu {
+    background: #fff !important;
+    color: #000 !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    overflow: visible !important;
+}
+
+.dark-mode .iw-cm-menu,
+.TnITTtw-dark-mode.iw-cm-menu,
+.TnITTtw-dark-mode .iw-cm-menu {
+    background: #525251 !important;
+    color: #FFF !important;
+}
+
+.iw-curMenu {
+}
+
+.iw-cm-menu li {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif !important;
+    list-style: none !important;
+    padding: 10px !important;
+    padding-right: 20px !important;
+    border-bottom: 1px solid #c8c7cc !important;
+    font-weight: 400 !important;
+    cursor: pointer !important;
+    position: relative !important;
+    font-size: 14px !important;
+    margin: 0 !important;
+    line-height: inherit !important;
+    border-radius: 0 !important;
+    display: block !important;
+}
+
+.dark-mode .iw-cm-menu li, .TnITTtw-dark-mode .iw-cm-menu li {
+    border-bottom-color: #747473 !important;
+}
+
+.iw-cm-menu li:first-child {
+    border-top-left-radius: 11px !important;
+    border-top-right-radius: 11px !important;
+}
+
+.iw-cm-menu li:last-child {
+    border-bottom-left-radius: 11px !important;
+    border-bottom-right-radius: 11px !important;
+    border-bottom: none !important;
+}
+
+.iw-mOverlay {
+    position: absolute !important;
+    width: 100% !important;
+    height: 100% !important;
+    top: 0px !important;
+    left: 0px !important;
+    background: #FFF !important;
+    opacity: .5 !important;
+}
+
+.iw-contextMenu li.iw-mDisable {
+    opacity: 0.3 !important;
+    cursor: default !important;
+}
+
+.iw-mSelected {
+    background-color: #F6F6F6 !important;
+}
+
+.dark-mode .iw-mSelected, .TnITTtw-dark-mode .iw-mSelected {
+    background-color: #676766 !important;
+}
+
+.iw-cm-arrow-right {
+    width: 0 !important;
+    height: 0 !important;
+    border-top: 5px solid transparent !important;
+    border-bottom: 5px solid transparent !important;
+    border-left: 5px solid #000 !important;
+    position: absolute !important;
+    right: 5px !important;
+    top: 50% !important;
+    margin-top: -5px !important;
+}
+
+.dark-mode .iw-cm-arrow-right, .TnITTtw-dark-mode .iw-cm-arrow-right {
+    border-left-color: #FFF !important;
+}
+
+.iw-mSelected > .iw-cm-arrow-right {
+}
+
+/*context menu css end */</style><style type="text/css">@-webkit-keyframes load4 {
+    0%,
+    100% {
+        box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+    }
+    12.5% {
+        box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    25% {
+        box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    37.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    50% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    62.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+    }
+    75% {
+        box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+    }
+    87.5% {
+        box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+    }
+}
+
+@keyframes load4 {
+    0%,
+    100% {
+        box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+    }
+    12.5% {
+        box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    25% {
+        box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    37.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    50% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    62.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+    }
+    75% {
+        box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+    }
+    87.5% {
+        box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+    }
+}</style><style type="text/css">/* This is not a zero-length file! */</style>  <meta name="ember-cli-head-start" content=""><title>‎ChibiEditor dans l’App Store</title>
+<link rel="canonical" href="https://github.io">
+  <meta name="description" content="‎Consultez et comparez les avis et notes d’autres utilisateurs, visualisez des captures d’écran et découvrez Pixelmator plus en détail. Téléchargez Pixelmator et utilisez-le sur votre iPhone, iPad ou iPod&nbsp;touch." id="ember125" class="ember-view">
+
+  <meta name="keywords" content="ChibiEditor, ChibiEditor Team, Création de chibis, Productivité, apps ios, app, appstore, app store, iphone, ipad, ipod touch, itouch, itunes" id="ember127" class="ember-view">
+
+  <meta property="og:title" content="‎ChibiEditor" id="ember129" class="ember-view">
+
+  <meta property="og:description" content="‎ChibiEditor iOS est un puissant éditeur d'image qui offre tout ce dont vous avez besoin pour créer, éditer et améliorer vos images. L'appli vous permet  de passer de façon complètement transparente du Mac à l'iPad. Et même de travailler sans aucun effort avec les gens qui utilisent Adobe Photos…" id="ember131" class="ember-view">
+
+  <meta property="og:site_name" content="App&nbsp;Store" id="ember133" class="ember-view">
+
+  <meta property="og:url" content="https://apps.apple.com/fr/app/pixelmator/id924695435" id="ember135" class="ember-view">
+
+  <meta property="og:image" content="https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/c5/5f/41/c55f4115-65fc-4986-6b2c-8f332cf65e52/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png" id="ember137" class="ember-view">
+
+  <meta property="og:image:alt" content="Pixelmator dans l’App Store" id="ember139" class="ember-view">
+
+  <meta property="og:image:secure_url" content="https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/c5/5f/41/c55f4115-65fc-4986-6b2c-8f332cf65e52/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png" id="ember141" class="ember-view">
+
+  <meta property="og:image:type" content="image/png" id="ember143" class="ember-view">
+
+  <meta property="og:image:width" content="1200" id="ember145" class="ember-view">
+
+  <meta property="og:image:height" content="630" id="ember147" class="ember-view">
+
+  <meta property="og:type" content="website" id="ember149" class="ember-view">
+
+  <meta property="og:locale" content="fr_FR" id="ember151" class="ember-view">
+
+  <meta property="fb:app_id" content="116556461780510" id="ember153" class="ember-view">
+
+  <meta name="twitter:title" content="‎Pixelmator" id="ember155" class="ember-view">
+
+  <meta name="twitter:description" content="‎Pixelmator pour iPad est un puissant éditeur d'image qui offre tout ce dont vous avez besoin pour créer, éditer et améliorer vos images. L'appli vous permet  de passer de façon complètement transparente du Mac à l'iPad. Et même de travailler sans aucun effort avec les gens qui utilisent Adobe Photos…" id="ember157" class="ember-view">
+
+  <meta name="twitter:site" content="@AppStore" id="ember159" class="ember-view">
+
+  <meta name="twitter:domain" content="AppStore" id="ember161" class="ember-view">
+
+  <meta name="twitter:image" content="https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/c5/5f/41/c55f4115-65fc-4986-6b2c-8f332cf65e52/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/600x600wa.png" id="ember163" class="ember-view">
+
+  <meta name="twitter:image:alt" content="Pixelmator dans l’App Store" id="ember165" class="ember-view">
+
+  <meta name="twitter:card" content="summary_large_image" id="ember167" class="ember-view">
+
+  <meta name="apple-itunes-app" content="app-id=375380948, app-argument=https://apps.apple.com/fr/app/pixelmator/id924695435" id="ember169" class="ember-view">
+
+  <script name="schema:software-application" id="ember171" class="ember-view" type="application/ld+json">{"@context":"http://schema.org","@type":"SoftwareApplication","name":"Pixelmator","description":"Pixelmator pour iPad est un puissant éditeur d'image qui offre tout ce dont vous avez besoin pour créer, éditer et améliorer vos images. L'appli vous permet  de passer de façon complètement transparente du Mac à l'iPad. Et même de travailler sans aucun effort avec les gens qui utilisent Adobe Photoshop.\n\nPixelmator exploite au maximum les dernières technologies de iOS, et vous propose des outils rapides et puissants vous permettant de retoucher et améliorer vos images, dessiner et peindre, appliquer des effets impressionnants, ou créer  des compositions avancées de façon incroyablement simple. Une fois que vos images sont prêtes, partagez-les pour célébrer votre travail avec le monde entier.\n\nOutils créatifs\n• Commencez avec des dizaines de modèles merveilleusement conçus\n• Enrichissez vos photos avec un effet, une trame, ou créez de superbes collages\n• Ajoutez un mot, une phrase, ou une légende\n• Rendez le texte magnifique avec des fonctionnalités de typograhpie avancées\n• Ajoutez, créez, combinez et éditez facilement des formes\n• Appliquez sans effort des ombres, des remplissages, et des traits\n\nOutils de peinture puissants et complets\n• Peignez avec Pixelmator comme vous le feriez sur une toile\n• Choisissez parmi des pinceaux réalistes à stylés, de toutes tailles et de toutes formes\n• Utilisez différentes tailles de pinceau et ajustez l'opacité du trait\n\nOutils de correction de gradient de couleur professionnels\n• Améliorez radicalement des images moins que parfaites d'un simple tap\n• Choisissez parmi huit préréglages de correction de couleur différents \n• Ajustez les niveaux, les courbes, la luminosité, le contraste, et bien plus\n• Supprimez les dominantes de couleur color cast et définissez la balance de blanc correcte\n\nOutils de retouche\n• Corrigez les plis et réparez les éraflures\n• Faites disparaître les imperfections de vos photos, supprimez ou ré-organisez les objets d'une composition\n• Jouez sur le flou, la netteté, éclaircissez ou assombrissez des zones spécifiques\n• Débarrassez-vous de l'effet yeux-rouges d'un seul clic\n\nUne vraie machine à effets\n• Chargé avec des dizaines d'effets à couper le souffle avec lesquels vous pouvez jouer\n• Donnez à vos photos un look éblouissant et rétro illuminé avec les Fuites de lumière\n• Prenez le contrôle complet sur les couleurs de l'image avec la Teinte et la Saturation\n\nEdition d'image avancée avec les calques et les sélections\n• Pixelmator est un éditeur complet basé sur les calques\n• Sélectionnez rapidement et facilement n'importe quelle partie d'une image\n• Editez et appliquez des effets spéciaux à des portions de vis photos\n\nStyles de calque\n• Personnalisez instantanément le look de vos images, de votre texte, et de vos formes au moment même où vous les créez\n• Ajoutez facilement des styles de calque non destructifs comme les ombres, les contours, les remplissages dégradés, et bien plus\n• Modifiez le style de calque à volonté jusqu'à obtenir le look que vous recherchez\n\nCompatibilité\n• Ouvrez et enregistrez des images PSD, JPEG, PNG, PDF, et de nombreux autres formats populaires\n• Ouvrez et enregistrez des images Photoshop avec des calques\n• Stockez et accédez les images dans iCloud Drive pour les ouvrir avec d'autres applis\n\niCloud et partage\n• Laissez iCloud stocker automatiquement vos images éditées et ainsi porter de façon transparente votre travail sur tous vos appareils\n• Vous pouvez passer complètement l'enregistrement manuel de vos documents grâce à l'Enregistrement auto\n• Envoyez vos photos par email directement depuis Pixelmator\n\nConçu exclusivement pour iPad\nPixelmator a été méticuleusement pensé et conçu depuis le début pour iOS 14 et iPad. Développé pour exploiter au maximum les fonctionnalités et les technologies de iOS 14. Et construit pour tirer avantage de toute la puissance de l'architecture 64-bit, d'ARC, de Grand Central Dispatch, de Core Image, et de Core Animation pour offrir une performance et une réactivité de pointe.","screenshot":["https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/4c/23/34/4c23346f-29c4-1b7c-d6a3-07faa24ff09c/pr_source.png/643x0w.jpg","https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/58/69/85/58698563-8e21-ba02-086a-8d3f8761b7b8/pr_source.png/643x0w.jpg","https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/83/5f/bb/835fbbab-f74d-515b-a034-4f5cd456fc8e/pr_source.png/643x0w.jpg","https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/8a/1c/9a/8a1c9a24-64f8-5f08-ebd1-9d3145bc4414/pr_source.png/643x0w.jpg","https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/de/51/2e/de512ee3-7106-3f3d-9b1c-6f2cf53bd2f7/pr_source.png/643x0w.jpg","https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/e6/fc/0f/e6fc0f02-2610-4529-864f-f631d6ca9b71/pr_source.png/643x0w.jpg","https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/a2/20/c1/a220c1ad-7b19-e854-a6b1-ebec36d64349/pr_source.png/643x0w.jpg","https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/e6/fd/31/e6fd3118-f643-ce52-825a-50957b0cead2/pr_source.png/643x0w.jpg","https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/43/82/65/43826535-a23f-8f49-067b-f92874f4f5a0/pr_source.png/643x0w.jpg","https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/a9/e1/2a/a9e12a76-9428-52cf-aab5-4395fac5e7b1/pr_source.png/643x0w.jpg","https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/b9/3a/3e/b93a3e23-7e52-8265-6845-58675215f208/pr_source.png/643x0w.jpg","https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/17/ea/2b/17ea2b9e-6bed-3e23-779e-14ee9571a4b8/pr_source.png/643x0w.jpg"],"image":"https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/c5/5f/41/c55f4115-65fc-4986-6b2c-8f332cf65e52/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png","applicationCategory":"Photo et vidéo","datePublished":"24 oct. 2014","operatingSystem":"Nécessite iOS 11.0 ou une version ultérieure. Compatible avec l’iPhone, l’iPad et l’iPod touch.","author":{"@type":"Person","name":"Pixelmator Team","url":"https://apps.apple.com/fr/developer/pixelmator-team/id407963107"},"aggregateRating":{"@type":"AggregateRating","ratingValue":3.8,"reviewCount":106},"offers":{"@type":"Offer","price":5.99,"priceCurrency":"EUR"}}
+</script>
+  <meta name="apple:content_id" content="924695435" id="ember173" class="ember-view">
+
+
+<meta name="ember-cli-head-end" content="">
+</head>
+  <body class="ember-application has-js no-touch"><aside id="ac-gn-segmentbar" class="ac-gn-segmentbar" dir="ltr" data-strings="{ 'exit': 'Quitter', 'view': 'Accueil&nbsp;– {%STOREFRONT%} Store', 'segments': { 'smb': 'Accueil Apple Store Entreprises', 'eduInd': 'Accueil Apple Store Éducation', 'other': 'Accueil Apple Store' } }" lang="fr-FR">
+</aside><input type="checkbox" id="ac-gn-menustate" class="ac-gn-menustate"><div class="ac-gn-blur"></div><div id="ac-gn-curtain" class="ac-gn-curtain"></div>
+    <div id="ember-app">
+      
+    <div class="ember-view">
+  <!---->
+
+  <!---->
+
+  <!---->
+
+  <main class="selfclear is-apps-theme">
+    <style id="ember174" class="ember-view"><!----></style>
+
+    <!---->
+
+    <div id="ember175" class="focusing-outlet ember-view"><div id="ember177" class="focusing-outlet ember-view">
+  <input id="localnav-menustate" class="localnav-menustate" type="checkbox">
+<div id="localnav-sticky-placeholder" class="css-sticky"></div>
+<span class="we-localnav__shim" aria-hidden="true"></span>
+<label id="localnav-curtain" for="localnav-menustate"></label>
+
+
+
+<div id="ember180" class="animation-wrapper is-visible ember-view">
+<!---->
+    <div id="ember181" class="ember-view">
+</div>
+
+  <div id="ember182" class="ember-view"><section id="ember183" class="l-content-width section section--hero product-hero ember-view"><div class="l-row">
+  <div class="product-hero__media l-column small-5 medium-4 large-3 small-valign-top">
+      <picture id="ember184" class="we-artwork ember-view product-hero__artwork we-artwork--fullwidth we-artwork--ios-app-icon" data-test-product-hero-artwork="">
+          <source class="we-artwork__source" srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/c5/5f/41/c55f4115-65fc-4986-6b2c-8f332cf65e52/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/230x0w.png 1x,https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/c5/5f/41/c55f4115-65fc-4986-6b2c-8f332cf65e52/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/460x0w.png 2x" media="(min-width: 1069px)" type="image/png">
+
+          <source class="we-artwork__source" srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/c5/5f/41/c55f4115-65fc-4986-6b2c-8f332cf65e52/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/217x0w.png 1x,https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/c5/5f/41/c55f4115-65fc-4986-6b2c-8f332cf65e52/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/434x0w.png 2x" media="(min-width: 735px)" type="image/png">
+
+          <source class="we-artwork__source" srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/c5/5f/41/c55f4115-65fc-4986-6b2c-8f332cf65e52/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png 1x,https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/c5/5f/41/c55f4115-65fc-4986-6b2c-8f332cf65e52/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/492x0w.png 2x" type="image/png">
+
+        <img class="we-artwork__image ember184" src="ChibiEditor%20AppStore%20Demo_fichiers/1x1-42817eea7ade52607a760cbee00d1495.gif" style="" alt="" width="246" height="246">
+    <style>
+      .ember184, #ember184::before {
+          width: 246px;
+          height: 246px;
+        }
+        .ember184::before {
+          padding-top: 100%;
+        }
+@media (min-width: 735px) {
+          .ember184, #ember184::before {
+          width: 217px;
+          height: 217px;
+        }
+        .ember184::before {
+          padding-top: 100%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember184, #ember184::before {
+          width: 230px;
+          height: 230px;
+        }
+        .ember184::before {
+          padding-top: 100%;
+        }
+        }
+    </style>
+
+</picture>
+  </div>
+
+  <div class="l-column small-7 medium-8 large-9 small-valign-top">
+    <header class="product-header app-header product-header--padded-start" role="banner">
+<!---->
+      <h1 class="product-header__title app-header__title" data-test-product-name="">
+        ChibiEditor
+          <span class="badge badge--product-title" data-test-product-rating="">4+</span>
+      </h1>
+
+<!---->
+      <h2 class="product-header__identity app-header__identity" data-test-developer-name="">
+        <a href="https://github.com/ChibiEditorTeam" class="link" data-metrics-click="{&quot;actionDetails&quot;:{&quot;type&quot;:&quot;developer&quot;},&quot;actionType&quot;:&quot;navigate&quot;,&quot;actionUrl&quot;:&quot;https://github.com/ChibiEditorTeam&quot;,&quot;targetType&quot;:&quot;link&quot;,&quot;targetId&quot;:&quot;407963107&quot;}" data-test-developer-link="" dir="auto">
+          ChibiEditor Team
+        </a>
+      </h2>
+
+        <ul class="product-header__list app-header__list">
+            <li class="product-header__list__item">
+              <ul class="inline-list inline-list--mobile-compact">
+                <li class="inline-list__item" data-test-store-rank="">
+                  N°&nbsp;1 en Création de chibis
+                </li>
+              </ul>
+            </li>
+
+            <li class="product-header__list__item app-header__list__item--user-rating">
+              <ul class="inline-list inline-list--mobile-compact">
+                <li class="inline-list__item">
+                  
+                </li>
+              </ul>
+            </li>
+        </ul>
+
+      <ul class="product-header__list app-header__list">
+<!---->
+        <li class="product-header__list__item">
+          <ul class="inline-list inline-list--mobile-compact">
+              <li class="inline-list__item inline-list__item--bulleted app-header__list__item--price" data-test-buy-price="">Gratuit&nbsp;</li>
+
+<!---->          </ul>
+        </li>
+
+<!---->
+<!---->      </ul>
+
+<!---->
+<!---->
+<!---->
+<!---->    </header>
+  </div>
+</div>
+</section>
+
+<!---->
+    <section class="l-content-width section section--bordered">
+      <div class="section__nav section__nav--align-start">
+        <h2 class="section__headline" data-test-app-screenshots-title="">Captures d’écran</h2>
+        <nav class="gallery-nav">
+          <ul class="gallery-nav__items">
+              <li class="gallery-nav__item">
+                <a href="https://apps.apple.com/fr/app/pixelmator/id924695435#?platform=iphone" id="ember191" class="ember-view link link--no-decoration is-active" data-test-app-platform-link="iphone">
+                  iPhone
+                </a>
+              </li>
+              <li class="gallery-nav__item">
+                <a href="https://apps.apple.com/fr/app/pixelmator/id924695435#?platform=ipad" id="ember193" class="ember-view link link--no-decoration" data-test-app-platform-link="ipad">
+                  iPad
+                </a>
+              </li>
+          </ul>
+        </nav>
+      </div>
+    <div id="ember194" class="we-screenshot-viewer ember-view"><div class="we-screenshot-viewer__screenshots">
+  <ul class="l-row l-row--peek we-screenshot-viewer__screenshots-list">
+        <li class="l-column small-4 medium-4 large-4" data-test-we-screenshot-viewer-row="">
+          <picture id="ember196" class="we-artwork ember-view we-artwork--fullwidth we-artwork--screenshot-platform-iphone we-artwork--screenshot-version-iphone-6-5 we-artwork--screenshot-orientation-landscape">
+          <source class="we-artwork__source" srcset="https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/4c/23/34/4c23346f-29c4-1b7c-d6a3-07faa24ff09c/pr_source.png/313x0w.png 1x,https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/4c/23/34/4c23346f-29c4-1b7c-d6a3-07faa24ff09c/pr_source.png/626x0w.png 2x" media="(min-width: 1069px)" type="image/png">
+
+          <source class="we-artwork__source" srcset="https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/4c/23/34/4c23346f-29c4-1b7c-d6a3-07faa24ff09c/pr_source.png/217x0w.png 1x,https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/4c/23/34/4c23346f-29c4-1b7c-d6a3-07faa24ff09c/pr_source.png/434x0w.png 2x" media="(min-width: 735px)" type="image/png">
+
+          <source class="we-artwork__source" srcset="https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/4c/23/34/4c23346f-29c4-1b7c-d6a3-07faa24ff09c/pr_source.png/643x0w.png 1x,https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/4c/23/34/4c23346f-29c4-1b7c-d6a3-07faa24ff09c/pr_source.png/1286x0w.png 2x" type="image/png">
+
+        <img class="we-artwork__image ember196" src="ChibiEditor%20AppStore%20Demo_fichiers/1x1-42817eea7ade52607a760cbee00d1495.gif" style="" alt="" width="643" height="297">
+    <style>
+      .ember196, #ember196::before {
+          width: 643px;
+          height: 297px;
+        }
+        .ember196::before {
+          padding-top: 46.18973561430793%;
+        }
+@media (min-width: 735px) {
+          .ember196, #ember196::before {
+          width: 217px;
+          height: 100px;
+        }
+        .ember196::before {
+          padding-top: 46.08294930875576%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember196, #ember196::before {
+          width: 313px;
+          height: 144px;
+        }
+        .ember196::before {
+          padding-top: 46.00638977635783%;
+        }
+        }
+    </style>
+
+</picture>
+        </li>
+        <li class="l-column small-4 medium-4 large-4" data-test-we-screenshot-viewer-row="">
+          <picture id="ember201" class="we-artwork ember-view we-artwork--fullwidth we-artwork--screenshot-platform-iphone we-artwork--screenshot-version-iphone-6-5 we-artwork--screenshot-orientation-landscape">
+          <source class="we-artwork__source" srcset="https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/58/69/85/58698563-8e21-ba02-086a-8d3f8761b7b8/pr_source.png/313x0w.png 1x,https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/58/69/85/58698563-8e21-ba02-086a-8d3f8761b7b8/pr_source.png/626x0w.png 2x" media="(min-width: 1069px)" type="image/png">
+
+          <source class="we-artwork__source" srcset="https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/58/69/85/58698563-8e21-ba02-086a-8d3f8761b7b8/pr_source.png/217x0w.png 1x,https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/58/69/85/58698563-8e21-ba02-086a-8d3f8761b7b8/pr_source.png/434x0w.png 2x" media="(min-width: 735px)" type="image/png">
+
+          <source class="we-artwork__source" srcset="https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/58/69/85/58698563-8e21-ba02-086a-8d3f8761b7b8/pr_source.png/643x0w.png 1x,https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/58/69/85/58698563-8e21-ba02-086a-8d3f8761b7b8/pr_source.png/1286x0w.png 2x" type="image/png">
+
+        <img class="we-artwork__image ember201" src="ChibiEditor%20AppStore%20Demo_fichiers/1x1-42817eea7ade52607a760cbee00d1495.gif" style="" alt="" width="643" height="297">
+    <style>
+      .ember201, #ember201::before {
+          width: 643px;
+          height: 297px;
+        }
+        .ember201::before {
+          padding-top: 46.18973561430793%;
+        }
+@media (min-width: 735px) {
+          .ember201, #ember201::before {
+          width: 217px;
+          height: 100px;
+        }
+        .ember201::before {
+          padding-top: 46.08294930875576%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember201, #ember201::before {
+          width: 313px;
+          height: 144px;
+        }
+        .ember201::before {
+          padding-top: 46.00638977635783%;
+        }
+        }
+    </style>
+
+</picture>
+        </li>
+        <li class="l-column small-4 medium-4 large-4" data-test-we-screenshot-viewer-row="">
+          <picture id="ember206" class="we-artwork ember-view we-artwork--fullwidth we-artwork--screenshot-platform-iphone we-artwork--screenshot-version-iphone-6-5 we-artwork--screenshot-orientation-landscape">
+          <source class="we-artwork__source" srcset="https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/83/5f/bb/835fbbab-f74d-515b-a034-4f5cd456fc8e/pr_source.png/313x0w.png 1x,https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/83/5f/bb/835fbbab-f74d-515b-a034-4f5cd456fc8e/pr_source.png/626x0w.png 2x" media="(min-width: 1069px)" type="image/png">
+
+          <source class="we-artwork__source" srcset="https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/83/5f/bb/835fbbab-f74d-515b-a034-4f5cd456fc8e/pr_source.png/217x0w.png 1x,https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/83/5f/bb/835fbbab-f74d-515b-a034-4f5cd456fc8e/pr_source.png/434x0w.png 2x" media="(min-width: 735px)" type="image/png">
+
+          <source class="we-artwork__source" srcset="https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/83/5f/bb/835fbbab-f74d-515b-a034-4f5cd456fc8e/pr_source.png/643x0w.png 1x,https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/83/5f/bb/835fbbab-f74d-515b-a034-4f5cd456fc8e/pr_source.png/1286x0w.png 2x" type="image/png">
+
+        <img class="we-artwork__image ember206" src="ChibiEditor%20AppStore%20Demo_fichiers/1x1-42817eea7ade52607a760cbee00d1495.gif" style="" alt="" width="643" height="297">
+    <style>
+      .ember206, #ember206::before {
+          width: 643px;
+          height: 297px;
+        }
+        .ember206::before {
+          padding-top: 46.18973561430793%;
+        }
+@media (min-width: 735px) {
+          .ember206, #ember206::before {
+          width: 217px;
+          height: 100px;
+        }
+        .ember206::before {
+          padding-top: 46.08294930875576%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember206, #ember206::before {
+          width: 313px;
+          height: 144px;
+        }
+        .ember206::before {
+          padding-top: 46.00638977635783%;
+        }
+        }
+    </style>
+
+</picture>
+        </li>
+        <li class="l-column small-4 medium-4 large-4" data-test-we-screenshot-viewer-row="">
+          <picture id="ember211" class="we-artwork ember-view we-artwork--fullwidth we-artwork--screenshot-platform-iphone we-artwork--screenshot-version-iphone-6-5 we-artwork--screenshot-orientation-landscape">
+          <source class="we-artwork__source" srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/8a/1c/9a/8a1c9a24-64f8-5f08-ebd1-9d3145bc4414/pr_source.png/313x0w.png 1x,https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/8a/1c/9a/8a1c9a24-64f8-5f08-ebd1-9d3145bc4414/pr_source.png/626x0w.png 2x" media="(min-width: 1069px)" type="image/png">
+
+          <source class="we-artwork__source" srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/8a/1c/9a/8a1c9a24-64f8-5f08-ebd1-9d3145bc4414/pr_source.png/217x0w.png 1x,https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/8a/1c/9a/8a1c9a24-64f8-5f08-ebd1-9d3145bc4414/pr_source.png/434x0w.png 2x" media="(min-width: 735px)" type="image/png">
+
+          <source class="we-artwork__source" srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/8a/1c/9a/8a1c9a24-64f8-5f08-ebd1-9d3145bc4414/pr_source.png/643x0w.png 1x,https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/8a/1c/9a/8a1c9a24-64f8-5f08-ebd1-9d3145bc4414/pr_source.png/1286x0w.png 2x" type="image/png">
+
+        <img class="we-artwork__image ember211" src="ChibiEditor%20AppStore%20Demo_fichiers/1x1-42817eea7ade52607a760cbee00d1495.gif" style="" alt="" width="643" height="297">
+    <style>
+      .ember211, #ember211::before {
+          width: 643px;
+          height: 297px;
+        }
+        .ember211::before {
+          padding-top: 46.18973561430793%;
+        }
+@media (min-width: 735px) {
+          .ember211, #ember211::before {
+          width: 217px;
+          height: 100px;
+        }
+        .ember211::before {
+          padding-top: 46.08294930875576%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember211, #ember211::before {
+          width: 313px;
+          height: 144px;
+        }
+        .ember211::before {
+          padding-top: 46.00638977635783%;
+        }
+        }
+    </style>
+
+</picture>
+        </li>
+        <li class="l-column small-4 medium-4 large-4" data-test-we-screenshot-viewer-row="">
+          <picture id="ember216" class="we-artwork ember-view we-artwork--fullwidth we-artwork--screenshot-platform-iphone we-artwork--screenshot-version-iphone-6-5 we-artwork--screenshot-orientation-landscape">
+          <source class="we-artwork__source" srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/de/51/2e/de512ee3-7106-3f3d-9b1c-6f2cf53bd2f7/pr_source.png/313x0w.png 1x,https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/de/51/2e/de512ee3-7106-3f3d-9b1c-6f2cf53bd2f7/pr_source.png/626x0w.png 2x" media="(min-width: 1069px)" type="image/png">
+
+          <source class="we-artwork__source" srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/de/51/2e/de512ee3-7106-3f3d-9b1c-6f2cf53bd2f7/pr_source.png/217x0w.png 1x,https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/de/51/2e/de512ee3-7106-3f3d-9b1c-6f2cf53bd2f7/pr_source.png/434x0w.png 2x" media="(min-width: 735px)" type="image/png">
+
+          <source class="we-artwork__source" srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/de/51/2e/de512ee3-7106-3f3d-9b1c-6f2cf53bd2f7/pr_source.png/643x0w.png 1x,https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/de/51/2e/de512ee3-7106-3f3d-9b1c-6f2cf53bd2f7/pr_source.png/1286x0w.png 2x" type="image/png">
+
+        <img class="we-artwork__image ember216" src="ChibiEditor%20AppStore%20Demo_fichiers/1x1-42817eea7ade52607a760cbee00d1495.gif" style="" alt="" width="643" height="297">
+    <style>
+      .ember216, #ember216::before {
+          width: 643px;
+          height: 297px;
+        }
+        .ember216::before {
+          padding-top: 46.18973561430793%;
+        }
+@media (min-width: 735px) {
+          .ember216, #ember216::before {
+          width: 217px;
+          height: 100px;
+        }
+        .ember216::before {
+          padding-top: 46.08294930875576%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember216, #ember216::before {
+          width: 313px;
+          height: 144px;
+        }
+        .ember216::before {
+          padding-top: 46.00638977635783%;
+        }
+        }
+    </style>
+
+</picture>
+        </li>
+        <li class="l-column small-4 medium-4 large-4" data-test-we-screenshot-viewer-row="">
+          <picture id="ember221" class="we-artwork ember-view we-artwork--fullwidth we-artwork--screenshot-platform-iphone we-artwork--screenshot-version-iphone-6-5 we-artwork--screenshot-orientation-landscape">
+          <source class="we-artwork__source" srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/e6/fc/0f/e6fc0f02-2610-4529-864f-f631d6ca9b71/pr_source.png/313x0w.png 1x,https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/e6/fc/0f/e6fc0f02-2610-4529-864f-f631d6ca9b71/pr_source.png/626x0w.png 2x" media="(min-width: 1069px)" type="image/png">
+
+          <source class="we-artwork__source" srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/e6/fc/0f/e6fc0f02-2610-4529-864f-f631d6ca9b71/pr_source.png/217x0w.png 1x,https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/e6/fc/0f/e6fc0f02-2610-4529-864f-f631d6ca9b71/pr_source.png/434x0w.png 2x" media="(min-width: 735px)" type="image/png">
+
+          <source class="we-artwork__source" srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/e6/fc/0f/e6fc0f02-2610-4529-864f-f631d6ca9b71/pr_source.png/643x0w.png 1x,https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/e6/fc/0f/e6fc0f02-2610-4529-864f-f631d6ca9b71/pr_source.png/1286x0w.png 2x" type="image/png">
+
+        <img class="we-artwork__image ember221" src="ChibiEditor%20AppStore%20Demo_fichiers/1x1-42817eea7ade52607a760cbee00d1495.gif" style="" alt="" width="643" height="297">
+    <style>
+      .ember221, #ember221::before {
+          width: 643px;
+          height: 297px;
+        }
+        .ember221::before {
+          padding-top: 46.18973561430793%;
+        }
+@media (min-width: 735px) {
+          .ember221, #ember221::before {
+          width: 217px;
+          height: 100px;
+        }
+        .ember221::before {
+          padding-top: 46.08294930875576%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember221, #ember221::before {
+          width: 313px;
+          height: 144px;
+        }
+        .ember221::before {
+          padding-top: 46.00638977635783%;
+        }
+        }
+    </style>
+
+</picture>
+        </li>
+  </ul>
+<!----></div>
+</div>
+  </section>
+
+
+    <section class="l-content-width section section--bordered">
+      <div class="section__description">
+        <h2 class="section__headline visuallyhidden">Description</h2>
+        <div class="l-row">
+          <div id="ember225" class="we-truncate we-truncate--multi-line we-truncate--interactive we-truncate--full ember-view l-column small-12 medium-9 large-8" data-test-description="">  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p dir="ltr" data-test-bidi="">ChibiEditor iOS vous permet d'utiliser votre éditeur de chibis partout, et dans votre poche.</p></div>
+        </div>
+      </div>
+    </section>
+
+<!---->
+  <section class="l-content-width section section--bordered whats-new" data-test-version-history="">
+    <div class="section__nav section__nav--small">
+      <h2 class="whats-new__headline">Nouveautés</h2>
+        <div data-test-we-modal="page-overlay" id="ember229" class="ember-view version-history">  
+
+<!----></div>
+    </div>
+    <div class="l-row whats-new__content">
+        <div class="l-column small-12 medium-3 large-4 small-valign-top whats-new__latest" data-test-version-history="">
+          <div class="l-row">
+            <time data-test-we-datetime="" datetime="2020-10-05T22:00:00.000Z" aria-label="6 octobre 2020" class="">6 oct. 2020</time>
+            <p class="l-column small-6 medium-12 whats-new__latest__version" data-test-version-number="">Version 1.2</p>
+          </div>
+        </div>
+      <div class="l-column small-12 medium-9 large-8 small-valign-top">
+        <div id="ember231" class="we-truncate we-truncate--multi-line we-truncate--interactive we-truncate--truncated ember-view" data-test-whats-new="">    
+
+      <div data-clamp="" id="ember233" class="we-clamp ember-view" ismorertl="false" style="height: 90px; mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 18px, rgb(0, 0, 0) 18px), linear-gradient(270deg, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 32.8px, rgb(0, 0, 0) 68.8px);"><p dir="ltr" data-test-bidi="">ChibiEditor 1.2 pour iOS apporte énormément de nouveaux éléments et de fonctionnalités !</p>
+
+
+
+
+
+
+
+
+
+</div>
+  
+
+
+    
+</div>
+      </div>
+    </div>
+  </section>
+
+      
+
+
+<!---->
+<!---->
+<section class="l-content-width section section--bordered">
+  <div class="l-row">
+    <div class="l-column small-12">
+      <h2 class="section__headline">Informations</h2>
+      <dl class="information-list information-list--app medium-columns">
+          <div class="information-list__item l-row">
+            <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2" data-test-app-info-seller-label="">Distributeur</dt>
+            <dd class="information-list__item__definition l-column medium-9 large-6" data-test-app-info-seller="">
+              ChibiEditor Team -- Rmy - MoustacheDevs
+            </dd>
+          </div>
+          <div class="information-list__item l-row">
+            <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2">Taille</dt>
+            <dd class="information-list__item__definition l-column medium-9 large-6" aria-label="176,4&nbsp;mégaoctets" data-test-app-info-size="">12,4&nbsp;Mo</dd>
+          </div>
+          <div class="information-list__item l-row">
+            <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2">Catégorie</dt>
+            <dd class="information-list__item__definition l-column medium-9 large-6" data-test-app-info-category="">
+                <a href="https://itunes.apple.com/fr/genre/id6008" class="link" data-metrics-click="{&quot;actionType&quot;:&quot;navigate&quot;,&quot;actionUrl&quot;:&quot;https://itunes.apple.com/fr/genre/id6008&quot;,&quot;targetType&quot;:&quot;link&quot;,&quot;targetId&quot;:&quot;GenrePage&quot;}">
+                  Photo et vidéo
+                </a>
+            </dd>
+          </div>
+        <div class="information-list__item l-row">
+          <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2">Compatibilité</dt>
+          <dd id="ember282" class="we-truncate we-truncate--multi-line we-truncate--interactive ember-view information-list__item__definition l-column medium-9 large-6" data-test-app-info-compatibility="">    
+
+      <div data-clamp="" id="ember284" class="we-clamp ember-view"><p dir="ltr" data-test-bidi="">Nécessite iOS 11.0 ou une version ultérieure. Compatible avec l’iPhone, l’iPad et l’iPod touch.</p>
+</div>
+  
+
+
+<!----></dd>
+        </div>
+<!---->        <div class="information-list__item l-row">
+          <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2">Langues</dt>
+          <dd id="ember286" class="information-list__item__definition l-column medium-9 large-6 we-truncate we-truncate--multi-line we-truncate--interactive ember-view">    
+
+      <div data-clamp="" id="ember288" class="we-clamp ember-view"><p dir="ltr" data-test-bidi="">Français</p>
+</div>
+  
+
+
+<!----></dd>
+        </div>
+        <div class="information-list__item l-row">
+          <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2">Âge</dt>
+          <dd class="information-list__item__definition l-column medium-9 large-6" data-test-app-info-rating="">4+</dd>
+        </div>
+<!----><!---->        <div class="information-list__item l-row">
+          <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2">Copyright</dt>
+          <dd class="information-list__item__definition l-column medium-9 large-6 information-list__item__definition--copyright" data-test-app-info-copyright="">© 2020 ChibiEditor Team</dd>
+        </div>
+          <div class="information-list__item l-row">
+            <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2">Prix</dt>
+            <dd class="information-list__item__definition l-column medium-9 large-6" data-test-app-info-price="">Gratuit&nbsp;</dd>
+          </div>
+<!---->
+      </dl>
+    </div>
+    <div class="l-column small-hide medium-show medium-9 medium-offset-3 large-10 large-offset-2">
+      <ul class="inline-list inline-list--app-extensions">
+          <li class="inline-list__item inline-list__item--margin-inline-end-large">
+            <a class="link icon icon-after icon-external" data-test-app-info-links-developer="" data-metrics-click="{&quot;actionDetails&quot;:{&quot;type&quot;:&quot;developer&quot;},&quot;actionType&quot;:&quot;navigate&quot;,&quot;actionUrl&quot;:&quot;@@url@@&quot;,&quot;targetType&quot;:&quot;link&quot;,&quot;targetId&quot;:&quot;@@id@@&quot;}" href="https://github.com/ChibiEditorTeam">
+              Site web du développeur
+            </a>
+          </li>
+          <li class="inline-list__item inline-list__item--margin-inline-end-large">
+            <a class="link icon icon-after icon-external" data-test-app-info-links-support="" data-metrics-click="{&quot;actionType&quot;:&quot;navigate&quot;,&quot;targetType&quot;:&quot;link&quot;,&quot;targetId&quot;:&quot;LinkToAppSupport&quot;}" href="https://www.pixelmator.com/support">
+              Assistance
+            </a>
+          </li>
+<!---->          <li class="inline-list__item inline-list__item--margin-inline-end-large">
+            <a class="link icon icon-after icon-external" data-test-app-info-links-privacy="" data-metrics-click="{&quot;actionType&quot;:&quot;navigate&quot;,&quot;targetType&quot;:&quot;link&quot;,&quot;targetId&quot;:&quot;LinkToPrivacyPolicy&quot;}" href="http://www.pixelmator.com/privacy-policy/">
+              Engagement de confidentialité
+            </a>
+          </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section section--link-list l-content-width medium-hide">
+  <ul class="link-list link-list--a">
+      <li class="link-list__item link-list__item--a">
+        <a class="link icon icon-after icon-external" data-metrics-click="{&quot;actionDetails&quot;:{&quot;type&quot;:&quot;developer&quot;},&quot;actionType&quot;:&quot;navigate&quot;,&quot;actionUrl&quot;:&quot;@@url@@&quot;,&quot;targetType&quot;:&quot;link&quot;,&quot;targetId&quot;:&quot;@@id@@&quot;}" href="https://www.pixelmator.com/ios/">
+          Site web du développeur
+        </a>
+      </li>
+      <li class="link-list__item link-list__item--a">
+        <a class="link icon icon-after icon-external" data-metrics-click="{&quot;actionType&quot;:&quot;navigate&quot;,&quot;targetType&quot;:&quot;link&quot;,&quot;targetId&quot;:&quot;LinkToAppSupport&quot;}" href="https://www.pixelmator.com/support">
+          Assistance
+        </a>
+      </li>
+<!---->      <li class="link-list__item link-list__item--a">
+        <a class="link icon icon-after icon-external" data-metrics-click="{&quot;actionType&quot;:&quot;navigate&quot;,&quot;targetType&quot;:&quot;link&quot;,&quot;targetId&quot;:&quot;LinkToPrivacyPolicy&quot;}" href="http://www.pixelmator.com/privacy-policy/">
+          Engagement de confidentialité
+        </a>
+      </li>
+  </ul>
+</section>
+
+  
+
+<!---->
+    
+</div>
+
+<!---->
+
+<!----></div>
+</div>
+</div>
+
+    <!---->
+
+    <!---->
+
+    <!---->
+
+  </main>
+</div>
+</div>
+    <div id="modal-container"></div>
+    <script integrity="" src="ChibiEditor%20AppStore%20Demo_fichiers/vendor-989782c7805c39a704b2a80e22407549.js"></script><div id="ac-gn-viewport-emitter"> </div>
+    <script integrity="" src="ChibiEditor%20AppStore%20Demo_fichiers/web-experience-app-530db2acff39b0486bf94a5cb27c636f.js"></script>
+    <script src="ChibiEditor%20AppStore%20Demo_fichiers/musickit.js"></script>
+
+    
+  
+
+<div>
+    <div class="vtResetstyles">
+    <div id="vtoverlay" class="vtoverlay w3-animate-right w3-container vtfadein">
+    <div class="vtmain" id="vtmain" style="">
+      <div class="vtcontactus">
+          <a id="linktest" href="https://www.virustotal.com/">
+            <img class="vtlogo-small" style=" width: 32px; 
+            height: 32px;" src="ChibiEditor%20AppStore%20Demo_fichiers/vt-32.png">
+          </a>
+          <a href="https://www.virustotal.com/">VT4Browsers
+          </a>
+      </div>
+      <span id="vtclose"><strong>X</strong></span>
+      <div class="vttext" id="statustext" style="">
+        <div class="vtscanstatus" id="vtscanstatus" style="">Fetching file...<br></div>
+        <div class="vtprogress" id="vtprogress" style=""></div>
+        <br id="brfile" style="display: none;">
+        <div class="vtscanstatus" id="vtscanfilelink" style="display: none;"></div>
+        <br id="brfileurl" style="">
+        <div class="vtscanstatus" id="vtscanstatusUrl" style="">Fetching download URL...<br></div>
+        <div class="vtprogress" id="vtprogressUrl" style="">
+        </div>
+        <br id="brurl" style="display: none;">
+        <div class="vtscanstatus" id="vtscanurllink" style="display: none;"></div>
+      </div>
+    </div>
+    </div>
+    </div></div><footer id="ac-globalfooter" class="no-js" role="contentinfo" dir="ltr" lang="fr-FR"><div class="ac-gf-content">
+</div></footer><script type="text/javascript" src="ChibiEditor%20AppStore%20Demo_fichiers/ac-global-nav.js" data-global-elements-nav-script="" async=""></script><script type="text/javascript" src="ChibiEditor%20AppStore%20Demo_fichiers/ac-global-footer.js" data-global-elements-footer-script="" async=""></script><div id="localnav-viewport-emitter" data-viewport-emitter-dispatch="" data-viewport-emitter-state="{&quot;viewport&quot;:&quot;large&quot;,&quot;orientation&quot;:&quot;landscape&quot;,&quot;retina&quot;:false}"></div></body></html>
