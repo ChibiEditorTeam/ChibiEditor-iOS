@@ -7,4 +7,4 @@
 
 ### Avant le téléchargement
 
-Avant de procéder à l'installation, assurez-vous que votre appareil soit sous iOS 11 ou ultérieur (privilégiez iOS 14). Privilégiez une connexion Wi-Fi pour le téléchargement de l'application.
+Avant de procéder à l'installation, assurez-vous que votre appareil soit sous iOS 11 ou ultérieur (choisissez de préférence iOS 14). Privilégiez une connexion Wi-Fi pour le téléchargement de l'application.
