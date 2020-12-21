@@ -2,7 +2,7 @@
 
 ### ChibiEditor pour iOS vous permet d'utiliser votre éditeur de chibis partout, et dans votre poche.
 
-#### Logiciel original créé par Rémy Trash | Portage de l'application vers iOS réalisé par Moustache
+#### Logiciel original créé par Rémy Trash | Porté pour iOS par Moustache
 
 ## Instructions pour l'installation
 
