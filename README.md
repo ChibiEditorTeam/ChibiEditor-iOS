@@ -6,6 +6,4 @@
 
 ## Instructions pour l'installation
 
-### Avant le téléchargement
-
-Avant de procéder à l'installation, assurez-vous que votre appareil soit sous iOS 11 ou ultérieur (choisissez de préférence iOS 14). Privilégiez une connexion Wi-Fi pour le téléchargement de l'application.
+Les instructions ont été déplacées sur le serveur Discord de ChibiEditor Community (https://discord.gg/vtavcAH). Pour y accéder, rendez-vous dans #👥❭-roles et choisissez le rôle "iOS".
