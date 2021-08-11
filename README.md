@@ -6,4 +6,4 @@
 
 ## Instructions pour l'installation
 
-Les instructions ont été déplacées sur le serveur Discord de ChibiEditor Community (https://discord.gg/vtavcAH). Pour y accéder, rendez-vous dans #👥❭-roles et choisissez le rôle "iOS".
+Les instructions ont été déplacées sur le serveur Discord de ChibiEditor Community (https://discord.gg/ChibiEditor). Pour y accéder, rendez-vous dans #👥❭-roles et choisissez le rôle "iOS".
