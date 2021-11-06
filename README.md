@@ -1,5 +1,9 @@
 # ChibiEditor pour iOS
 
+## ⚠️ Le projet est actuellement en pause ! Nous vous informerons (sur Discord ou YouTube) lorsque celui-ci sera repris.
+### Vous pouvez rejoindre notre serveur Discord (https://discord.gg/vtavcAH) pour être au courant des informations à propos du logiciel.
+
+
 ### ChibiEditor pour iOS vous permet d'utiliser votre éditeur de chibis partout, et dans votre poche.
 
 #### Logiciel original créé par Rémy Trash | Porté pour iOS par Moustache
