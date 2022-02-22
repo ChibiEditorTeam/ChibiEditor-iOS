@@ -1,3 +1,5 @@
+![image](https://img.shields.io/badge/Join%20our-Discord-5865F2?logo=discord&link=https://discord.gg/vtavcAH)
+
 # ChibiEditor pour iOS
 
 ## ⚠️ Le projet est actuellement en pause ! Nous vous informerons (sur Discord ou YouTube) lorsque celui-ci sera repris.
